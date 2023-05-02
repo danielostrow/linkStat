@@ -16,3 +16,11 @@ JSON file being read should be structured like:
   ]
 }
 ```
+### Output example:
+```
+Link                  Status
+--------------------  --------
+https://www.google.com       200
+https://www.github.com       200
+https://www.example.com      200
+```
