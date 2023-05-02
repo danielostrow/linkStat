@@ -9,7 +9,7 @@ with open('links.json', 'r') as f:
 # Need a store for the results
 results = []
 
-# links in JSON data
+# loop through links in JSON data
 for link in data['links']:
     # Send request and get response code
     response = requests.get(link)
