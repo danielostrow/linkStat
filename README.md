@@ -11,8 +11,7 @@ JSON file being read should be structured like:
 {
   "links": [
     "https://www.google.com",
-    "https://www.github.com",
-    "https://www.example.com"
+    "https://www.amazon.com"
   ]
 }
 ```
@@ -21,6 +20,5 @@ JSON file being read should be structured like:
 Link                  Status
 --------------------  --------
 https://www.google.com       200
-https://www.github.com       200
-https://www.example.com      200
+https://www.amazon.com       200
 ```
